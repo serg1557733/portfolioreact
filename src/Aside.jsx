@@ -1,3 +1,5 @@
+import linkedinImg from './icons/social/linkedin.png';
+import gitImg from './icons/social/github.svg';
 
 const Aside = () => {
 
@@ -6,11 +8,11 @@ const Aside = () => {
         <aside className="sidepanel">
 
             <a href="https://www.linkedin.com/in/serhiiborshch" target="_blank" className="sidepanel__link">
-                <img src="./icons/social/linkedin.svg" alt="linkedIn"/>
+                <img src={linkedinImg}/>
 
             </a>
                 <a href="https://www.github.com/serg1557733" target="_blank" className="sidepanel__link">
-                    <img className="sidepanel__img_git" src="icons/social/github.svg" alt="Github"/>
+                    <img className="sidepanel__img_git" src={gitImg} alt="Github"/>
                 </a>
             
             <div className="sidepanel_divider"></div>
